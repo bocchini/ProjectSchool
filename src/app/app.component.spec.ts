@@ -18,4 +18,8 @@ describe('AppComponent', () => {
   it('should create the app', () => {
     expect(component).toBeTruthy();
   });
+
+  it('', () => {
+    component.ngOnInit()
+  });
 });
