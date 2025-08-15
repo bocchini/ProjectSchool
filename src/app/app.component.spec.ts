@@ -20,6 +20,6 @@ describe('AppComponent', () => {
   });
 
   it('', () => {
-    component.ngOnInit()
+    expect(component.ngOnInit()).toHaveBeenCalled;
   });
 });
